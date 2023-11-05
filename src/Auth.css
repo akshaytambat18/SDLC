@@ -1,0 +1,92 @@
+.auth-container {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+    position: relative;
+    top: 50px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #4682b4;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    text-align: left;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  input {
+    width: 90%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #5f9ea0; 
+  }
+  
+  p {
+    margin-top: 15px;
+  }
+  
+  p a {
+    text-decoration: none;
+    color: #4682b4; 
+  }
+  
+  .success-popup {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #008000;
+    color: white;
+    border-radius: 5px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .error-popup {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 5px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

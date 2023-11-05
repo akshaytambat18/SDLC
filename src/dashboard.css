@@ -1,0 +1,96 @@
+.dashboard-container {
+    background-image: url('bg1.jpg'); 
+    background-size: cover; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    color: white; 
+
+    .search-box {
+      width: 400px;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 50px;
+      border: none;
+    }
+   
+    .search-button {
+      border-radius: 50px !important;
+      width: 100px;
+      margin-left: 10px;
+    }
+  }
+
+  .dashboard-container input::placeholder {
+    padding-left: 10px;
+  }
+  
+  .dashboard-container input:focus::placeholder {
+    color: transparent;
+  }
+  
+  
+
+  .info-conatiner {
+    background:rgba(255, 255, 255, 0.5);  ;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 1.5);
+    
+
+    .img-5, .img-2, .img-3, .img-6, .img-7, .img-8, .img-8{
+      background-size: contain; 
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 100px;
+      margin: 10px 0px;
+    }
+    .img-5{
+      background-image: url('../public/images/rain.png');
+    }
+    .img-2{
+      background-image: url('../public/images/thunder.png'); 
+    }
+    .img-3{
+      background-image: url('../public/images/drizzle.png'); 
+    }
+    .img-6{
+      background-image: url('../public/images/snow.png'); 
+
+    }
+    .img-7{
+      background-image: url('../public/images/snow.png'); 
+
+    }
+    .img-9{
+      background-image: url('../public/images/clear.png'); 
+
+    }
+    .img-8{
+      background-image: url('../public/images/cloudy.png'); 
+
+    }
+    
+
+    .city-name{
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .temp{
+      font-size: 70px;
+    }
+    .time-temp-conatiner{
+      display: flex;
+      .rise-set-time{
+        margin-right: 50px;
+      }
+    }
+  }
